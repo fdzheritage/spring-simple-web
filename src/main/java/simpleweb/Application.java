@@ -1,4 +1,4 @@
-package springsimpleweb;
+package simpleweb;
 
 import java.util.Arrays;
 
