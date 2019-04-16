@@ -60,12 +60,4 @@ public class Page {
         return this.content;
     }
 
-    public String getHtml() {
-        String html = "";
-        html += "<h1>" + this.title + "</h1>";
-        html += "<p>" + this.content + "</p>";
-        return html; 
-    }
-
-
 }

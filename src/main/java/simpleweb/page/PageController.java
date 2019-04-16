@@ -21,7 +21,6 @@ public class PageController {
     }
 
 	@GetMapping(path="/{pageKey}") 
-	// public String showPage (Model model, @PathVariable("pageKey") String pageKey) {
 	public String showPage ( @PathVariable("pageKey") String pageKey, Model model) {
         Page page = pageRepository.findByPageKey(pageKey);
         if ( page == null) {

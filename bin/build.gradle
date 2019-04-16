@@ -39,8 +39,3 @@ dependencies {
 
 }
 
-
-// Run the following inside your terminal commands to avoid vscode showing import errors
-// gradle cleanEclipse
-// gradle eclipse
-
